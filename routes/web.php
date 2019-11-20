@@ -19,10 +19,19 @@ Route::get('/about', function () {
     return view('about');
 });
 
-//Route::resource('/post','PostController');
+Route::get('/service', function () {
+    return view('service');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+
 Route::get('/Siswa/create', 'ShoeruController@create');
 Route::resource('/siswas','ShoeruController');
 Route::post('/Siswa', 'ShoeruController@store');
 // Route::delete('/siswas/{siswa}', 'ShoeruController@destroy');
 // Route::get('/siswas/{siswa}/edit', 'ShoeruController@edit');
 // Route::patch('/siswas/{siswa}', 'ShoeruController@update');
+Route::resource('comments', 'CommentController');

@@ -29,11 +29,32 @@
             <input type="text" class="form-control" id="Nama_sepatu"
              placeholder="Masukkan Nama Sepatu" name="Nama_sepatu" value="{{$siswas->Nama_sepatu}}">
   </div>
-  <div class="form-group">
-            <label for="service">Services</label>
-            <input type="text" class="form-control" id="service"
-             placeholder="Service" name="service" value="{{$siswas->service}}">
-  </div>
+  <label for="exampleRadios">Services</label>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="service" value="{{$siswas->service}}" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Regular Treatment
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="service" value="{{$siswas->service}}">
+  <label class="form-check-label" for="exampleRadios2">
+    Premium Treatment
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="service" value="{{$siswas->service}}" >
+  <label class="form-check-label" for="exampleRadios3">
+    Boost Material treatment(inc unyellowing boost)
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="service" value="{{$siswas->service}}" >
+  <label class="form-check-label" for="exampleRadios3">
+    Regular Unyellowing(not boost material)
+  </label>
+</div>
   <div class="form-group">
             <label for="gambar_foto">Foto</label>
             <input type="text" class="form-control" id="gambar_foto"

@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 <div class="container">
     <div class="row">
         <div class="col-10">
@@ -24,15 +25,37 @@
              placeholder="Masukkan Nomer Telepon" name="no_telepon">
   </div>
   <div class="form-group">
-            <label for="Nama_sepatu">Nama Sepatu</label>
+            <label for="Nama_sepatu">Jumlah Sepatu</label>
             <input type="text" class="form-control" id="Nama_sepatu"
              placeholder="Masukkan Nama Sepatu" name="Nama_sepatu">
   </div>
-  <div class="form-group">
-            <label for="service">Services</label>
-            <input type="text" class="form-control" id="service"
-             placeholder="Service" name="service">
-  </div>
+
+  <label for="exampleRadios">Services</label>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="service" id="service" value="Regular Treatment" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Regular Treatment
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="service" id="service" value="Premium Treatment">
+  <label class="form-check-label" for="exampleRadios2">
+    Premium Treatment
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="service" id="service" value="Boost Treatment" >
+  <label class="form-check-label" for="exampleRadios3">
+    Boost Material treatment(inc unyellowing boost)
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="service" id="service" value="Regular Unyellowing" >
+  <label class="form-check-label" for="exampleRadios3">
+    Regular Unyellowing(not boost material)
+  </label>
+</div>
   <div class="form-group">
             <label for="gambar_foto">Foto</label>
             <input type="text" class="form-control" id="gambar_foto"

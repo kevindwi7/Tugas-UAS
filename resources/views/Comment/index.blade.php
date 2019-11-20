@@ -4,7 +4,7 @@
         <div class="col-10">
         <h1 class="mt-3">Daftar Sepatu</h1>
         <a href="/" type="submit" class="btn btn-primary">Kembali ke halaman Awal</a> 
-        <a href="/comments" type="submit" class="btn btn-primary">Ke Daftar Comment</a> 
+        <a href="/siswas" type="submit" class="btn btn-primary">Ke Daftar Sepatu</a> 
         @if (session('status'))
             <div class="alert alert-success">
                 {{ session('status')}}
@@ -16,26 +16,24 @@
                 <tr>
                 <th scope="col">#</th>
                 <th scope="col">Nama</th>
-                <th scope="col">Nama Sepatu</th>
-                <th scope="col">Alamat</th>
-                <th scope="col">No telepon</th>
-                <th scope="col">Service</th>
+                <th scope="col">Email</th>
+                <th scope="col">Comment</th>
                 <th scope="col">Aksi</th>
+            
             </tr>                
             </thead>
             <tbody>
-                @foreach($siswas as $siswa)
+                @foreach($comments as $comment)
                 <tr>
-                <th scope="row">{{$siswa->id}}</th>
-                    <td>{{$siswa->nama}}</td>
-                    <td>{{$siswa->Nama_sepatu}}</td>
-                    <TD>{{$siswa->alamat}}</TD>
-                    <td>{{$siswa->no_telepon}}</td>
-                    <td>{{$siswa->service}}</td>
+                <th scope="row">{{$comment->id}}</th>
+                    <td>{{$comment->nama}}</td>
+                    <td>{{$comment->email}}</td>
+                    <TD>{{$comment->description}}</TD>
+                   
                     
                     <td>
-                        <a href="/siswas/{{$siswa->id}}/edit" type="submit" class="btn btn-primary">edit</a> 
-                        <form action="/siswas/{{$siswa->id}}" method="post" class="d-inline">
+                        
+                        <form action="/comments/{{$comment->id}}" method="post" class="d-inline">
                             @method('delete')
                             @csrf
                         <button type="submit" class="btn btn-danger">delete</a>

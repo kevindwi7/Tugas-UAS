@@ -51,19 +51,14 @@
                                     <ul id="navigation">
                                         <li><a href="/">home</a></li>
                                         <li><a  class="active" href="/about">About</a></li>
-                                        <li><a href="service.html">service</a></li>                                  
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="/service">service</a></li>                                  
+                                        <li><a href="/comments/create">Contact</a></li>
+                                        <li><a href="/Siswa/create">Booking</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                            <div class="book_room">
-                                <div class="book_btn d-none d-lg-block">
-                                    <a class="popup-with-form" href="#test-form">Booking</a>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
@@ -80,19 +75,18 @@
         </div>
         <!-- bradcam_area_end -->
 
-    <!-- about_area_start -->
-    <div class="about_area">
+   <!-- about_area_start -->
+   <div class="about_area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_thumb">
-                        <img src="img/about/about_lft.png" alt="">
-                        <div class="opening_hour text-center">
-                                <i class="flaticon-clock"></i>
-                                <h3>Opening Hour</h3>
-                                <p>Mon-Fri (9.00-11.00) <br>
-                                        Sat (10.00-4.00)</p>
-                        </div>
+                    <div class="logo-img">
+                                    <a href="index.html">
+                                        <img src="img/logo.jpg" alt="" width="100" height="500">
+                                    </a>
+                                </div>
+                        
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
@@ -100,13 +94,11 @@
                         <div class="section_title mb-20px">
                             <span>About Us</span>
                             <h3>Experienced and <br>
-                                    Traditional Stylish <br>
-                                    Barber Shop</h3>
+                                    Professional <br>
+                                    Laundry Shoes</h3>
                         </div>
-                        <p>Inspires employees and organizations to support causes they care  <br>
-                                about. We do this to bring more resources to the nonprofits that are  <br>
-                                changing our world.</p>
-                        <a href="#" class="boxed-btn3">Learn More</a>
+                        <p>Shoeru adalah usaha yang bergerak dibidang jasa pencucian khusus sepatu. Sneaklin didirikan pada tanggal 3 november 2018 yang dapat dibilang sebagai pionir laundry sepatu di Indonesia, berawal dari tugas mata kuliah kewirausahaan disalah satu universitas swasta di Kota Bandung. Pengambilan nama Shoeru merupakan gabungan dari kata serapan bahasa inggris yaitu Shoes dan Clean yang memiliki arti sepatu kets yang bersih, agar lebih mudah diingat maka penulisannya menggunakan bahasa indonesia menjadi Sneaklin.</p>
+                      
                     </div>
                 </div>
             </div>
@@ -195,121 +187,7 @@
     </div>
     <!-- gallery_area_end -->
 
-    <!-- video_area_start -->
-    <div class="video_area">
-        <div class="container-fluid p-0">
-            <div class="row align-items-center no-gutters">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="video_info">
-                        <div class="about_info">
-                            <div class="section_title mb-20px">
-                                <span>How we Work</span>
-                                <h3>Watch the Video <br>
-                                    How we Work?</h3>
-                            </div>
-                            <p>Inspires employees and organizations to support causes they care <br>
-                                about. We do this to bring more resources to the nonprofits that are <br>
-                                changing our world.</p>
-                            <a href="#" class="boxed-btn3">book now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="video_thumb">
-                        <div class="video_thumb_inner">
-                            <img src="img/gallery/video.png" alt="">
-                            <a href="https://www.youtube.com/watch?v=I4NcwG-zusE" class="popup-video">
-                                <i class="fa fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- video_area_end -->
-
-    <!-- cutter_muster_start -->
-    <div class="cutter_muster">
-        <div class="container">
-                <div class="row">
-                        <div class="col-xl-12">
-                            <div class="section_title2 text-center mb-90">
-                                <i class="flaticon-scissors"></i>
-                                <h3>Our Cutter Masters</h3>
-                            </div>
-                        </div>
-                    </div>
-            <div class="row">
-                <div class="col-xl-3 col-md-6 col-lg-3">
-                    <div class="single_master">
-                        <div class="thumb">
-                            <img src="img/team/1.png" alt="">
-                            <div class="social_link">
-                                <a href="#"><i class="fa fa-envelope"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="master_name text-center">
-                            <h3>Macau Wilium</h3>
-                            <p>Massage Master</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6 col-lg-3">
-                    <div class="single_master">
-                        <div class="thumb">
-                            <img src="img/team/2.png" alt="">
-                            <div class="social_link">
-                                <a href="#"><i class="fa fa-envelope"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="master_name text-center">
-                            <h3>Dan Jacky</h3>
-                            <p>Mens Cut</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6 col-lg-3">
-                    <div class="single_master">
-                        <div class="thumb">
-                            <img src="img/team/3.png" alt="">
-                            <div class="social_link">
-                                <a href="#"><i class="fa fa-envelope"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="master_name text-center">
-                            <h3>Luka Luka</h3>
-                            <p>Mens Cut</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6 col-lg-3">
-                    <div class="single_master">
-                        <div class="thumb">
-                            <img src="img/team/4.png" alt="">
-                            <div class="social_link">
-                                <a href="#"><i class="fa fa-envelope"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="master_name text-center">
-                            <h3>Rona Dana</h3>
-                            <p>Ladies Cut</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- cutter_muster_end -->
-
+   
     <!-- find_us_area start -->
     <div class="find_us_area find_bg_1 ">
         <div class="container">
@@ -322,8 +200,8 @@
                                 <i class="flaticon-placeholder"></i>
                             </div>
                             <div class="find_text">
-                                    <h3>Location</h3>
-                                    <p>200, A-block, Green road, USA</p>
+                                    <h3>Instagram</h3>
+                                    <p>shoeru.co</p>
                             </div>
                         </div>
                         <div class="single_find d-flex">
@@ -332,7 +210,7 @@
                             </div>
                             <div class="find_text">
                                     <h3>Call Us</h3>
-                                    <p>+10 378 478 2789</p>
+                                    <p>082132109145</p>
                             </div>
                         </div>
                         <div class="single_find d-flex">
@@ -340,16 +218,11 @@
                                 <i class="flaticon-paper-plane"></i>
                             </div>
                             <div class="find_text">
-                                    <h3>Mail Us</h3>
-                                    <p>contact@barbershop.com</p>
+                                    <h3>Line us</h3>
+                                    <p>@yds0168k</p>
                             </div>
                         </div>
-                        <div class="single_find">
-                            <div class="book_btn">
-                                <a class="popup-with-form" href="#test-form">Make an Appointment</a>
-                            </div>
-                        </div>
-
+                        
                     </div>
                 </div>
             </div>
@@ -367,38 +240,20 @@
                                 <h3 class="footer_title">
                                     Join With Us
                                 </h3>
-                                <p class="footer_text doanar"> <a class="first" href="#">Make Appointment</a> <br>
-                                    <a href="#">+10 378 478 2789</a></p>
+                                <p class="footer_text doanar"> <a class="first" href="#">Booking</a> <br>
+                                    <a href="#">082132109145</a></p>
     
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-6 col-lg-3">
                             <div class="footer_widget">
                                 <h3 class="footer_title">
-                                    address
+                                    Instagram
                                 </h3>
-                                <p class="footer_text">200, A-block, Green road, USA <br>
-                                    +10 367 267 2678 <br>
-                                    <a class="domain" href="#">contact@nonprofit.com</a></p>
-                                <div class="socail_links">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-facebook-square"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <p class="footer_text">shoeru.co <br></p>
+                                    
+
+                                
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-6 col-lg-2">
@@ -407,25 +262,14 @@
                                     Navigation
                                 </h3>
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Rooms</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">News</a></li>
+                                    <   <li><a href="/">Home</a></li>
+                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/service">Service</a></li>
+                                    <li><a href="/comments">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-md-6 col-lg-4">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                    Newsletter
-                                </h3>
-                                <form action="#" class="newsletter_form">
-                                    <input type="text" placeholder="Enter your mail">
-                                    <button type="submit">Sign Up</button>
-                                </form>
-                                <p class="newsletter_text">Subscribe newsletter to get updates</p>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -446,54 +290,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </footer>
     <!-- footer -->
     <!-- link that opens popup -->
-
-    <!-- form itself end-->
-    <form id="test-form" class="white-popup-block mfp-hide">
-            <div class="popup_box ">
-                    <div class="popup_inner">
-                        <h3>Make an Appointment</h3>
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-xl-6 col-md-6">
-                                    <input id="datepicker" placeholder="Date">
-                                </div>
-                                <div class="col-xl-6 col-md-6">
-                                    <input id="timepicker" placeholder="time">
-                                </div>
-                                <div class="col-xl-6 col-md-6">
-                                    <select class="form-select wide" id="default-select" class="">
-                                        <option data-display="Choose services">Choose services 1</option>
-                                        <option value="1">Choose services 2</option>
-                                        <option value="2">Choose services 3</option>
-                                        <option value="3">Choose services 4</option>
-                                    </select>
-                                </div>
-                                <div class="col-xl-6 col-md-6">
-                                    <select class="form-select wide" id="default-select" class="">
-                                        <option data-display="Choose Barbers">Choose Barbers</option>
-                                        <option value="1">Zaki</option>
-                                        <option value="2">Ronky</option>
-                                        <option value="3">kalu</option>
-                                    </select>
-                                </div>
-                                <div class="col-xl-6 col-md-6">
-                                    <input type="text" placeholder="Your name">
-                                </div>
-                                <div class="col-xl-6 col-md-6">
-                                    <input type="text" placeholder="Phone no">
-                                </div>
-                                <div class="col-xl-12">
-                                    <input type="email" placeholder="Your email">
-                                </div>
-                                <div class="col-xl-12">
-                                    <button type="submit" class="boxed-btn3">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-        </form>
-<!-- form itself end -->
 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>

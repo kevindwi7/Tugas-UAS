@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Shoeru</title>
+    <title>Barber</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -40,8 +40,8 @@
                     <div class="row align-items-center no-gutters">
                             <div class="col-xl-3 col-lg-3">
                                 <div class="logo-img">
-                                    <a href="index.html">
-                                        <img src="img/logo.jpg" alt="" width="100" height="100">
+                                    <a href="/">
+                                        <img src="img/logo.png" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="/">home</a></li>
+                                    <li><a class="active" href="/">home</a></li>
                                         <li><a href="/about">About</a></li>
                                         <li><a href="/service">service</a></li>
                                         <li><a href="/comments/create">Contact</a></li>
@@ -59,7 +59,11 @@
                                 </nav>
                             </div>
                         </div>
-                       
+                        <
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,56 +71,7 @@
     </header>
     <!-- header-end -->
 
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1 overlay2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="slider_text text-center">
-                            <img src="img/banner/barber_text.png" alt="">
-                            <h3>Best Laundry Shoes in <br>
-                                your Town</h3>
-                            <p>Professional Care</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- slider_area_end -->
-
-    <!-- about_area_start -->
-    <div class="about_area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="about_thumb">
-                    <div class="logo-img">
-                                    <a href="index.html">
-                                        <img src="img/logo.jpg" alt="" width="100" height="500">
-                                    </a>
-                                </div>
-                        
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="about_info">
-                        <div class="section_title mb-20px">
-                            <span>About Us</span>
-                            <h3>Experienced and <br>
-                                    Professional <br>
-                                    Laundry Shoes</h3>
-                        </div>
-                        <p>Shoeru adalah usaha yang bergerak dibidang jasa pencucian khusus sepatu. Sneaklin didirikan pada tanggal 3 november 2018 yang dapat dibilang sebagai pionir laundry sepatu di Indonesia, berawal dari tugas mata kuliah kewirausahaan disalah satu universitas swasta di Kota Bandung. Pengambilan nama Shoeru merupakan gabungan dari kata serapan bahasa inggris yaitu Shoes dan Clean yang memiliki arti sepatu kets yang bersih, agar lebih mudah diingat maka penulisannya menggunakan bahasa indonesia menjadi Sneaklin.</p>
-                      
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- about_area_end -->
-<div class="service_area">
+    <div class="service_area">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -170,8 +125,6 @@
         </div>
     </div>
 </div>
-
-
     <!-- gallery_area_start -->
     <div class="gallery_area">
         <div class="container">
@@ -253,10 +206,9 @@
     </div>
     <!-- gallery_area_end -->
 
-   
-
-    <!-- find_us_area start -->
-    <div class="find_us_area find_bg_1 ">
+    
+   <!-- find_us_area start -->
+   <div class="find_us_area find_bg_1 ">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 offset-xl-7 col-lg-6 offset-lg-6">
@@ -333,7 +285,7 @@
                                     <li><a href="/">Home</a></li>
                                     <li><a href="/about">About</a></li>
                                     <li><a href="/service">Service</a></li>
-                                    <li><a href="/comments">Contact</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -357,10 +309,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </footer>
     <!-- footer -->
-    <!-- link that opens popup -->
-
-
-
+    <!-- link that opens popup --> 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -409,6 +358,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
      });
     </script>
 </body>
-
 
 </html>
