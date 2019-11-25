@@ -16,18 +16,24 @@
   <div class="form-group">
             <label for="alamat">Alamat</label>
             <input type="text" class="form-control @error('alamat') is-invalid @enderror" id="alamat"
-             placeholder="Masukkan Alamat" name="alamat">
+             placeholder="*Alamat lengkap, RT/RW, Kode Pos" name="alamat">
              @error('alamat')<div class="invalid-feedback">{{$message}}</div>@enderror
   </div>
   <div class="form-group">
             <label for="no_telepon">No telepon</label>
-            <input type="text" class="form-control" id="no_telepon"
+            <input type="text" class="form-control @error('no_telepon') is-invalid @enderror" id="no_telepon"
              placeholder="Masukkan Nomer Telepon" name="no_telepon">
+             @error('no_telepon')<div class="invalid-feedback">{{$message}}</div>@enderror
   </div>
   <div class="form-group">
-            <label for="Nama_sepatu">Jumlah Sepatu</label>
-            <input type="text" class="form-control" id="Nama_sepatu"
-             placeholder="Masukkan Nama Sepatu" name="Nama_sepatu">
+  <label for="Nama_sepatu">Jumlah Sepatu</label>
+    <select class="form-control" name="Nama_sepatu" id="Nama_sepatu">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
   </div>
 
   <label for="exampleRadios">Services</label>
@@ -44,24 +50,19 @@
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value="Boost Treatment" >
+  <input class="form-check-input" type="radio" name="service" id="service" value="Boost Material treatment(inc unyellowing boost)" >
   <label class="form-check-label" for="exampleRadios3">
     Boost Material treatment(inc unyellowing boost)
   </label>
 </div>
 
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value="Regular Unyellowing" >
+  <input class="form-check-input" type="radio" name="service" id="service" value="Regular Unyellowing(not boost material)" >
   <label class="form-check-label" for="exampleRadios3">
     Regular Unyellowing(not boost material)
   </label>
 </div>
-  <div class="form-group">
-            <label for="gambar_foto">Foto</label>
-            <input type="text" class="form-control" id="gambar_foto"
-             placeholder="Foto" name="gambar_foto">
-  </div>
-    
+ <br>
   <button type="submit" class="btn btn-primary">Booking Cucian</button>
 </form>
         </div>
