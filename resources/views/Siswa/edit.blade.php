@@ -25,42 +25,42 @@
              placeholder="Masukkan Nomer Telepon" name="no_telepon" value="{{$siswas->no_telepon}}">
   </div>
   <div class="form-group">
-            <label for="Nama_sepatu">Nama Sepatu</label>
-            <input type="text" class="form-control" id="Nama_sepatu"
-             placeholder="Masukkan Nama Sepatu" name="Nama_sepatu" value="{{$siswas->Nama_sepatu}}">
+            <label for="Nama_sepatu">Jumlah Sepatu</label>
+            <select class="form-control" name="Nama_sepatu" id="Nama_sepatu"  value="{{$siswas->Nama_sepatu}}">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
   </div>
   <label for="exampleRadios">Services</label>
   <div class="form-check">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="service" value="{{$siswas->service}}" checked>
+  <input class="form-check-input" type="radio" name="service" id="service" value=" Regular Treatment" checked>
   <label class="form-check-label" for="exampleRadios1">
     Regular Treatment
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="service" value="{{$siswas->service}}">
+  <input class="form-check-input" type="radio" name="service" id="service" value="Premium Treatment">
   <label class="form-check-label" for="exampleRadios2">
     Premium Treatment
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="service" value="{{$siswas->service}}" >
+  <input class="form-check-input" type="radio" name="service" id="service" value=" Boost Material treatment(inc unyellowing boost)" >
   <label class="form-check-label" for="exampleRadios3">
     Boost Material treatment(inc unyellowing boost)
   </label>
 </div>
 
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="service" value="{{$siswas->service}}" >
+  <input class="form-check-input" type="radio" name="service" id="service" value=" Regular Unyellowing(not boost material)" >
   <label class="form-check-label" for="exampleRadios3">
     Regular Unyellowing(not boost material)
   </label>
 </div>
-  <div class="form-group">
-            <label for="gambar_foto">Foto</label>
-            <input type="text" class="form-control" id="gambar_foto"
-             placeholder="Foto" name="gambar_foto" value="{{$siswas->gambar_foto}}">
-  </div>
-    
+  
   <button type="submit" class="btn btn-primary">Ubah Data</button>
 </form>
         </div>

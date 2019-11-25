@@ -41,7 +41,7 @@
                             <div class="col-xl-3 col-lg-3">
                                 <div class="logo-img">
                                     <a href="index.html">
-                                        <img src="img/logo.png" alt="">
+                                    <img src="img/shoeru.jpg" alt="" width="100" height="100">
                                     </a>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@
                     <div class="about_thumb">
                     <div class="logo-img">
                                     <a href="index.html">
-                                        <img src="img/logo.jpg" alt="" width="100" height="500">
+                                    <img src="img/shoeru.jpg" alt="" width="100" height="500">
                                     </a>
                                 </div>
                         

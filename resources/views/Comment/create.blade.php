@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-10">
-        <h1 class="mt-3">Form Booking Cuci Sepatu</h1>
+        <h1 class="mt-3">Contact</h1>
         <form method="post" action="/comments">
         @csrf
          <div class="form-group">

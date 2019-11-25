@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <div class="container">
     <div class="row">
-        <div class="col-10">
+        <div class="col-15">
         <h1 class="mt-3">Daftar Sepatu</h1>
         <a href="/" type="submit" class="btn btn-primary">Kembali ke halaman Awal</a> 
         <a href="/comments" type="submit" class="btn btn-primary">Ke Daftar Comment</a> 
@@ -16,7 +16,7 @@
                 <tr>
                 <th scope="col">#</th>
                 <th scope="col">Nama</th>
-                <th scope="col">Nama Sepatu</th>
+                <th scope="col">Jumlah Sepatu</th>
                 <th scope="col">Alamat</th>
                 <th scope="col">No telepon</th>
                 <th scope="col">Service</th>

@@ -31,7 +31,11 @@ Route::get('/contact', function () {
 Route::get('/Siswa/create', 'ShoeruController@create');
 Route::resource('/siswas','ShoeruController');
 Route::post('/Siswa', 'ShoeruController@store');
-// Route::delete('/siswas/{siswa}', 'ShoeruController@destroy');
-// Route::get('/siswas/{siswa}/edit', 'ShoeruController@edit');
-// Route::patch('/siswas/{siswa}', 'ShoeruController@update');
 Route::resource('comments', 'CommentController');
+Auth::routes();
+
+Route::get('/auth', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/auth', 'HomeController@index')->name('home');

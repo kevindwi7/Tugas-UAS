@@ -14,12 +14,12 @@ class CommentController extends Controller
      */
     public function index()
     {
-        $data = array(
+        $dataComment = array(
             'id' => "comments",
             'comments' => comment::all()
             
         );
-        return view('Comment.index')->with($data);
+        return view('Comment.index')->with($dataComment);
     }
 
     /**

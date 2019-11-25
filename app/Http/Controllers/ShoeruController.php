@@ -42,7 +42,10 @@ class ShoeruController extends Controller
     {
         $request->validate([
             'nama' =>'required',
-            'alamat' =>'required'
+            'alamat' =>'required',
+            'no_telepon' => 'required',
+            
+            'service' => 'required'
         ]);  
 
         shoeru::create([

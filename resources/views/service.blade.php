@@ -41,7 +41,7 @@
                             <div class="col-xl-3 col-lg-3">
                                 <div class="logo-img">
                                     <a href="/">
-                                        <img src="img/logo.png" alt="">
+                                    <img src="img/shoeru.jpg" alt="" width="100" height="100">
                                     </a>
                                 </div>
                             </div>
