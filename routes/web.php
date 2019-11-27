@@ -32,6 +32,7 @@ Route::get('/Siswa/create', 'ShoeruController@create');
 Route::resource('/siswas','ShoeruController');
 Route::post('/Siswa', 'ShoeruController@store');
 Route::resource('comments', 'CommentController');
+Route::resource('service', 'ServiceController');
 Auth::routes();
 
 Route::get('/auth', 'HomeController@index')->name('home');

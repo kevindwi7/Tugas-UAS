@@ -84,42 +84,17 @@
         <div class="white_bg_pos">
                 <div class="row">
                         <div class="col-xl-6">
+                        @foreach($service as $srv)
                             <div class="single_service d-flex justify-content-between align-items-center">
                                 <div class="service_inner d-flex align-items-center">
-                                
-                                    <span>Regular Treatment</span>
+                                    <span>{{$srv->service_name}}</span>
                                 </div>
-                                <p>………………………..30k</p>
+                                <p>………………………..{{$srv->harga}}</p>
                             </div>
-                            <div class="single_service d-flex justify-content-between align-items-center">
-                                <div class="service_inner d-flex align-items-center">
-                                    
-                                    <span>Premium Treatment</span>
-                                </div>
-                                <p>………………………..45k</p>
-                            </div>
-                    
-                        
-                            <div class="single_service d-flex justify-content-between align-items-center">
-                                <div class="service_inner d-flex align-items-center">
-                                    
-                                    <span>Boost Material Treatment</span>
-                                </div>
-                                <p>………………………..50k</p>
-                            </div>
-                            <div class="single_service d-flex justify-content-between align-items-center">
-                                <div class="service_inner d-flex align-items-center">
-                                   
-                                    <span>Regular unyellowing</span>
-                                </div>
-                                <p>………………………..45k</p>
-                            </div>
-                            
+                        @endforeach
                         </div>
                         <div class="col-xl-12">
-                                <div class="book_btn text-center">
-                                    
-                                </div>
+                                <div class="book_btn text-center"></div>
                         </div>
                     </div>
         </div>

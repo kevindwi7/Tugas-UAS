@@ -5,6 +5,7 @@
         <h1 class="mt-3">Daftar Sepatu</h1>
         <a href="/" type="submit" class="btn btn-primary">Kembali ke halaman Awal</a> 
         <a href="/comments" type="submit" class="btn btn-primary">Ke Daftar Comment</a> 
+        <a href="/service" type="submit" class="btn btn-primary">Ke Daftar Servicet</a>
         @if (session('status'))
             <div class="alert alert-success">
                 {{ session('status')}}

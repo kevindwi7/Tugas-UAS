@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Service;
 
 class ServiceController extends Controller
 {
@@ -13,7 +14,9 @@ class ServiceController extends Controller
      */
     public function index()
     {
-        //
+        $service = Service::all();
+  
+        return view('service',compact('service'));
     }
 
     /**
@@ -23,7 +26,7 @@ class ServiceController extends Controller
      */
     public function create()
     {
-        //
+        return view('service.create');
     }
 
     /**
@@ -34,7 +37,15 @@ class ServiceController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'service_name' => 'required',
+            'harga' => 'required',
+        ]);
+  
+        Service::create($request->all());
+   
+        return redirect()->route('service.index')
+                        ->with('Status','Service Berhasil Ditambahkan.');
     }
 
     /**
