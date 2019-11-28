@@ -37,6 +37,11 @@ Route::get('/Siswa/create', 'ShoeruController@create');
 
 Route::post('/Siswa', 'ShoeruController@store');
 
+Route::resource('comments', 'CommentController');
+Route::resource('service', 'ServiceController');
+Auth::routes();
+
+
 Route::resource('/comments', 'CommentController');
 
 
