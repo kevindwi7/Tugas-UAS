@@ -12,15 +12,15 @@ class ShoeruController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        $data = array(
-            'id' => "siswas",
-            'siswas' => shoeru::all()
+    // public function index()
+    // {
+    //     $data = array(
+    //         'id' => "siswas",
+    //         'siswas' => shoeru::all()
             
-        );
-        return view('siswa.index')->with($data);
-    }
+    //     );
+    //     return view('siswa.index')->with($data);
+    // }
 
     /**
      * Show the form for creating a new resource.
@@ -32,6 +32,7 @@ class ShoeruController extends Controller
         return view('Siswa.create'); 
     }
 
+  
     /**
      * Store a newly created resource in storage.
      *
@@ -54,7 +55,7 @@ class ShoeruController extends Controller
               'no_telepon' =>$request->no_telepon,
               'Nama_sepatu' =>$request->Nama_sepatu,
               'service' =>$request->service,
-              'gambar_foto' =>$request->gambar_foto
+           
           ]);
 
           return redirect('/')->with('success', 'Booking telah selesai');
@@ -78,14 +79,14 @@ class ShoeruController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
-       $data = array(
-           'id' => 'siswas',
-           'siswas' => shoeru::find($id)
-       );
-       return view('Siswa.edit')->with($data);
-    }
+    // public function edit($id)
+    // {
+    //    $data = array(
+    //        'id' => 'siswas',
+    //        'siswas' => shoeru::find($id)
+    //    );
+    //    return view('Siswa.edit')->with($data);
+    // }
 
     /**
      * Update the specified resource in storage.
@@ -94,20 +95,22 @@ class ShoeruController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {   
-        $post = shoeru::find($id);
-        $post->nama = $request->input('nama');
-        $post->alamat = $request->input('alamat');
-        $post->no_telepon = $request->input('no_telepon');
-        $post->Nama_sepatu = $request->input('Nama_sepatu');
-        $post->service = $request->input('service');
-        $post->gambar_foto = $request->input('gambar_foto');
+    // public function update(Request $request, $id)
+    // {   
+    //     $post = shoeru::find($id);
+    //     $post->nama = $request->input('nama');
+    //     $post->alamat = $request->input('alamat');
+    //     $post->no_telepon = $request->input('no_telepon');
+    //     $post->Nama_sepatu = $request->input('Nama_sepatu');
+    //     $post->status_sepatu = $request->input('status_sepatu');
+    //     $post->service = $request->input('service');
+    //     $post->kode_booking = $request->input('kode_booking');
+        
 
-        $post->save();
+    //     $post->save();
 
-        return redirect('/siswas')->with('status','Data telah berhasil di simpan!!');
-    }
+    //     return redirect('/siswas')->with('status','Data telah berhasil di simpan!!');
+    // }
 
     /**
      * Remove the specified resource from storage.
@@ -115,11 +118,11 @@ class ShoeruController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
-    {
-        $post= shoeru::find($id);
-        $post->delete();
+    // public function destroy($id)
+    // {
+    //     $post= shoeru::find($id);
+    //     $post->delete();
 
-        return redirect('/siswas')->with('status','Data telah berhasil di hapus!!');
-    }
+    //     return redirect('/siswas')->with('status','Data telah berhasil di hapus!!');
+    // }
 }

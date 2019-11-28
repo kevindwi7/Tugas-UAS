@@ -53,6 +53,7 @@
                                         <li><a  class="active" href="/about">About</a></li>
                                         <li><a href="/service">service</a></li>                                  
                                         <li><a href="/comments/create">Contact</a></li>
+                                        <li><a href="/status">Cleaning Status</a></li>
                                         <li><a href="/Siswa/create">Booking</a></li>
                                     </ul>
                                 </nav>

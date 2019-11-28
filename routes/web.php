@@ -28,14 +28,20 @@ Route::get('/contact', function () {
 });
 
 
+Route::get('/search', 'searchController@search')->name('search');
+Route::resource('/status', 'searchController');
+
+Route::resource('/siswas','HomeController');
+
 Route::get('/Siswa/create', 'ShoeruController@create');
-Route::resource('/siswas','ShoeruController');
+
 Route::post('/Siswa', 'ShoeruController@store');
-Route::resource('comments', 'CommentController');
+
+Route::resource('/comments', 'CommentController');
+
+
 Auth::routes();
 
-Route::get('/auth', 'HomeController@index')->name('home');
+Route::get('/admin', 'HomeController@index')->name('home');
 
-Auth::routes();
 
-Route::get('/auth', 'HomeController@index')->name('home');

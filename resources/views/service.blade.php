@@ -49,11 +49,11 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                    <li><a class="active" href="/">home</a></li>
+                                    <li><a  href="/">home</a></li>
                                         <li><a href="/about">About</a></li>
-                                        <li><a href="/service">service</a></li>
+                                        <li><a class="active" href="/service">service</a></li>
                                         <li><a href="/comments/create">Contact</a></li>
-                                 
+                                        <li><a href="/status">Cleaning Status</a></li>
                                         <li><a href="/Siswa/create">Booking</a></li>
                                     </ul>
                                 </nav>

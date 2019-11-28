@@ -50,14 +50,14 @@
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value="Boost Material treatment(inc unyellowing boost)" >
+  <input class="form-check-input" type="radio" name="service" id="service" value="Boost Material treatment" >
   <label class="form-check-label" for="exampleRadios3">
     Boost Material treatment(inc unyellowing boost)
   </label>
 </div>
 
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value="Regular Unyellowing(not boost material)" >
+  <input class="form-check-input" type="radio" name="service" id="service" value="Regular Unyellowing" >
   <label class="form-check-label" for="exampleRadios3">
     Regular Unyellowing(not boost material)
   </label>

@@ -25,6 +25,16 @@
              placeholder="Masukkan Nomer Telepon" name="no_telepon" value="{{$siswas->no_telepon}}">
   </div>
   <div class="form-group">
+            <label for="status_sepatu">Status Sepatu</label>
+            <input type="text" class="form-control" id="status_sepatu"
+             placeholder="Masukkan Status Sepatu" name="status_sepatu" value="{{$siswas->status_sepatu}}">
+  </div>
+  <div class="form-group">
+            <label for="kode_booking">Kode Booking</label>
+            <input type="text" class="form-control" id="kode_booking"
+             placeholder="Masukkan Kode Booking" name="kode_booking" value="{{$siswas->kode_booking}}" >
+  </div>
+  <div class="form-group">
             <label for="Nama_sepatu">Jumlah Sepatu</label>
             <select class="form-control" name="Nama_sepatu" id="Nama_sepatu"  value="{{$siswas->Nama_sepatu}}">
       <option>1</option>
@@ -48,14 +58,14 @@
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value=" Boost Material treatment(inc unyellowing boost)" >
+  <input class="form-check-input" type="radio" name="service" id="service" value=" Boost Material treatment" >
   <label class="form-check-label" for="exampleRadios3">
     Boost Material treatment(inc unyellowing boost)
   </label>
 </div>
 
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value=" Regular Unyellowing(not boost material)" >
+  <input class="form-check-input" type="radio" name="service" id="service" value=" Regular Unyellowing" >
   <label class="form-check-label" for="exampleRadios3">
     Regular Unyellowing(not boost material)
   </label>
