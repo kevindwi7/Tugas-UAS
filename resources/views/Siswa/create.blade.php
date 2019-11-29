@@ -29,7 +29,7 @@
   </div>
 
   <div class="form-group">
-  <label for="Nama_sepatu">Jumlah Sepatu (*max. 5)</label>
+  <label for="Nama_sepatu">Jumlah Sepatu</label>
     <select class="form-control" name="Nama_sepatu" id="Nama_sepatu">
       <option>1</option>
       <option>2</option>
