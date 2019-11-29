@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\shoeru;
+use App\Shoeru;
+use App\Service;
 
 class ShoeruController extends Controller
 {
@@ -29,7 +30,9 @@ class ShoeruController extends Controller
      */
     public function create()
     {
-        return view('Siswa.create'); 
+        $service = Service::all();
+        $shoes = Shoeru::all();
+        return view('Siswa.create', compact('service', 'shoes')); 
     }
 
   
