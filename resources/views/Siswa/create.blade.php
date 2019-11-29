@@ -26,7 +26,7 @@
              @error('no_telepon')<div class="invalid-feedback">{{$message}}</div>@enderror
   </div>
   <div class="form-group">
-  <label for="Nama_sepatu">Jumlah Sepatu (*max. 5)</label>
+  <label for="Nama_sepatu">Jumlah Sepatu</label>
     <select class="form-control" name="Nama_sepatu" id="Nama_sepatu">
       <option>1</option>
       <option>2</option>
@@ -36,26 +36,8 @@
     </select>
   </div>
 
-<label for="exampleRadios">Services</label>
-
-<?php $value = array(?>
-@foreach($service)
-  {{$service->service_name}}<?php, ?>
-@endforeach
-<?php ); ?>
-
-<?php $i=0; ?>
-
-@foreach($service)
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value="<?php $value[$i] ?>" checked>
-  <label class="form-check-label" for="exampleRadios<?php[$i]?>">
-    {{$service->service_name}}
-  </label>
-</div>
-<?php $i++; ?>
-@endforeach
-<!-- <div class="form-check">
+  <label for="exampleRadios">Services</label>
+  <div class="form-check">
   <input class="form-check-input" type="radio" name="service" id="service" value="Regular Treatment" checked>
   <label class="form-check-label" for="exampleRadios1">
     Regular Treatment
@@ -79,7 +61,7 @@
   <label class="form-check-label" for="exampleRadios3">
     Regular Unyellowing(not boost material)
   </label>
-</div> -->
+</div>
  <br>
   <button type="submit" class="btn btn-primary">Booking Cucian</button>
 </form>
