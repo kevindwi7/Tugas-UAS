@@ -19,9 +19,9 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/service', function () {
-    return view('service');
-});
+// Route::get('/service', function () {
+//     return view('service');
+// });
 
 Route::get('/contact', function () {
     return view('contact');
@@ -35,9 +35,12 @@ Route::resource('/siswas','HomeController');
 
 Route::get('/Siswa/create', 'ShoeruController@create');
 
+Route::get('/service', 'ServiceController@index');
+
 Route::post('/Siswa', 'ShoeruController@store');
 
 Route::resource('/comments', 'CommentController');
+
 
 
 Auth::routes();

@@ -20,7 +20,8 @@ class ShoeruController extends Controller
     //         'siswas' => shoeru::all()
             
     //     );
-    //     return view('siswa.index')->with($data);
+    //     $service = Service::all();
+    //     return view('siswa.index',compact('service'))->with($data);
     // }
 
     /**
@@ -29,10 +30,9 @@ class ShoeruController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
-    {
+    {   
         $service = Service::all();
-        $shoes = Shoeru::all();
-        return view('Siswa.create', compact('service', 'shoes')); 
+        return view('Siswa.create',compact('service')); 
     }
 
   

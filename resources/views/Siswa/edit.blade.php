@@ -60,16 +60,15 @@
 <div class="form-check">
   <input class="form-check-input" type="radio" name="service" id="service" value=" Boost Material treatment" >
   <label class="form-check-label" for="exampleRadios3">
-    Boost Material treatment(inc unyellowing boost)
+    Boost Sole Material Treatment
   </label>
 </div>
 
 <div class="form-check">
   <input class="form-check-input" type="radio" name="service" id="service" value=" Regular Unyellowing" >
   <label class="form-check-label" for="exampleRadios3">
-    Regular Unyellowing(not boost material)
+    Non-Boost Material Treatment
   </label>
-</div>
   
   <button type="submit" class="btn btn-primary">Ubah Data</button>
 </form>
