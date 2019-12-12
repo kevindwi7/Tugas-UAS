@@ -25,6 +25,7 @@ class ServiceController extends Controller
      */
     public function create()
     {
+        $service = Service::all(); 
         return view('service.create');
     }
 
@@ -66,7 +67,11 @@ class ServiceController extends Controller
      */
     public function edit($id)
     {
-        //
+        $data = array(
+            'id' => 'service',
+            'service' => Service::find($id)
+        );
+        return view('service.edit', compact('service'))->with($data);
     }
 
     /**
@@ -78,7 +83,14 @@ class ServiceController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = Service::find($id);
+        $post->service_name = $request->input('service');
+        $post->harga = $request->input('harga');
+        
+
+        $post->save();
+
+        return redirect('/serviceadmin')->with('status','Data telah berhasil di simpan!!');
     }
 
     /**
@@ -89,6 +101,9 @@ class ServiceController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post= shoeru::find($id);
+        $post->delete();
+
+        return redirect('/siswas')->with('status','Data telah berhasil di hapus!!');
     }
 }

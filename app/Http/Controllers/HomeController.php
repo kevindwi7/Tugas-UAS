@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\shoeru;
+use App\Service;
 
 class HomeController extends Controller
 {
@@ -96,7 +97,8 @@ class HomeController extends Controller
            'id' => 'siswas',
            'siswas' => shoeru::find($id)
        );
-       return view('Siswa.edit')->with($data);
+       $service = Service::all();
+       return view('Siswa.edit', compact('service'))->with($data);
     }
 
     /**

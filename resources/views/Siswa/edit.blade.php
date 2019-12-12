@@ -44,31 +44,17 @@
       <option>5</option>
     </select>
   </div>
-  <label for="exampleRadios">Services</label>
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value=" Regular Treatment" checked>
-  <label class="form-check-label" for="exampleRadios1">
-    Regular Treatment
-  </label>
+  <label for="Services">Services</label>
+<div class="form-group">
+  <select class="form-control" name="service" id="service">
+    @foreach($service as $srv)
+      <option value="{{$srv->service_name}}">
+        {{$srv->service_name}}
+      </option>
+    @endforeach
+  </select>
 </div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value="Premium Treatment">
-  <label class="form-check-label" for="exampleRadios2">
-    Premium Treatment
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value=" Boost Material treatment" >
-  <label class="form-check-label" for="exampleRadios3">
-    Boost Sole Material Treatment
-  </label>
-</div>
-
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="service" id="service" value=" Regular Unyellowing" >
-  <label class="form-check-label" for="exampleRadios3">
-    Non-Boost Material Treatment
-  </label>
+  
   
   <button type="submit" class="btn btn-primary">Ubah Data</button>
 </form>

@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-10">
-        <h1 class="mt-3">Daftar Sepatu</h1>
+        <h1 class="mt-3">Daftar Contact</h1>
         <a href="/" type="submit" class="btn btn-primary">Kembali ke halaman Awal</a> 
         <a href="/siswas" type="submit" class="btn btn-primary">Ke Daftar Sepatu</a> 
         @if (session('status'))

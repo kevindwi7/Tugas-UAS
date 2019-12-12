@@ -41,7 +41,7 @@ Route::post('/Siswa', 'ShoeruController@store');
 
 Route::resource('/comments', 'CommentController');
 
-
+Route::resource('/serviceadmin', 'ServiceAdminController');
 
 Auth::routes();
 
