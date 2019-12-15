@@ -40,7 +40,7 @@
                     <div class="row align-items-center no-gutters">
                             <div class="col-xl-3 col-lg-3">
                                 <div class="logo-img">
-                                    <a href="index.html">
+                                    <a href="welcome.blade.php">
                                     <img src="img/shoeru.jpg" alt="" width="100" height="100">
                                     </a>
                                 </div>
@@ -71,7 +71,7 @@
     <!-- header-end -->
 
     <!-- bradcam_area_start -->
-    <div class="bradcam_area breadcam_bg overlay2">
+    <div class="bradcam_area breadcam_bg overlay2" style="background-image: url('img/banner/home.jpg')">
             <h3>Cleaning Status</h3>
         </div>
         <!-- bradcam_area_end -->

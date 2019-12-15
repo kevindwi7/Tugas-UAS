@@ -1778,8 +1778,8 @@ h3 {
 .service_area::before {
   position: absolute;
   content: "";
-  background: #4A3600;
-  height: 650px;
+  background-image: url(../img/banner/banner_service.jng);;
+  height: 0;
   left: 0;
   right: 0;
   background-size: cover;

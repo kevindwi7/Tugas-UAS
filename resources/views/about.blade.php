@@ -40,7 +40,7 @@
                     <div class="row align-items-center no-gutters">
                             <div class="col-xl-3 col-lg-3">
                                 <div class="logo-img">
-                                    <a href="index.html">
+                                    <a href="welcome.blade.php">
                                     <img src="img/shoeru.jpg" alt="" width="100" height="100">
                                     </a>
                                 </div>
@@ -71,7 +71,7 @@
     <!-- header-end -->
 
     <!-- bradcam_area_start -->
-    <div class="bradcam_area breadcam_bg overlay2">
+    <div class="bradcam_area breadcam_bg overlay2" style="background-image: url('img/banner/home.jpg')">
             <h3>About Us</h3>
         </div>
         <!-- bradcam_area_end -->
@@ -121,11 +121,11 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="gallery_active owl-carousel">
-                        <div class="single_gallery">
+                    <div class="single_gallery">
                             <div class="thumb">
-                                <img src="img/gallery/1.png" alt="">
+                                <img src="img/gallery/gal1.jpg" alt="">
                                 <div class="image_hover">
-                                    <a class="popup-image" href="img/gallery/1.png">
+                                    <a class="popup-image" href="img/gallery/gal1.jpg">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -133,9 +133,9 @@
                         </div>
                         <div class="single_gallery">
                             <div class="thumb">
-                                <img src="img/gallery/2.png" alt="">
+                                <img src="img/gallery/gal2.jpg" alt="">
                                 <div class="image_hover">
-                                    <a class="popup-image" href="img/gallery/2.png">
+                                    <a class="popup-image" href="img/gallery/gal2.jpg">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -143,9 +143,9 @@
                         </div>
                         <div class="single_gallery">
                             <div class="thumb">
-                                <img src="img/gallery/3.png" alt="">
+                                <img src="img/gallery/gal3.jpg" alt="">
                                 <div class="image_hover">
-                                    <a class="popup-image" href="img/gallery/3.png">
+                                    <a class="popup-image" href="img/gallery/gal3.jpg">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -153,9 +153,9 @@
                         </div>
                         <div class="single_gallery">
                             <div class="thumb">
-                                <img src="img/gallery/1.png" alt="">
+                                <img src="img/gallery/gal1.jpg" alt="">
                                 <div class="image_hover">
-                                    <a class="popup-image" href="img/gallery/1.png">
+                                    <a class="popup-image" href="img/gallery/gal1.jpg">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -163,9 +163,9 @@
                         </div>
                         <div class="single_gallery">
                             <div class="thumb">
-                                <img src="img/gallery/2.png" alt="">
+                                <img src="img/gallery/gal2.jpg" alt="">
                                 <div class="image_hover">
-                                    <a class="popup-image" href="img/gallery/2.png">
+                                    <a class="popup-image" href="img/gallery/gal2.jpg">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -173,9 +173,9 @@
                         </div>
                         <div class="single_gallery">
                             <div class="thumb">
-                                <img src="img/gallery/3.png" alt="">
+                                <img src="img/gallery/gal3.jpg" alt="">
                                 <div class="image_hover">
-                                    <a class="popup-image" href="img/gallery/3.png">
+                                    <a class="popup-image" href="img/gallery/gal3.jpg">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -190,7 +190,7 @@
 
    
     <!-- find_us_area start -->
-    <div class="find_us_area find_bg_1 ">
+    <div class="find_us_area find_bg_1 " style="background-image: url('img/banner/end3.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 offset-xl-7 col-lg-6 offset-lg-6">
